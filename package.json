@@ -1,0 +1,25 @@
+{
+  "name": "car-management-trial",
+  "version": "1.0.0",
+  "description": "A secure and scalable car management system built with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel7176/car-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Samuel7176/car-management-system/issues"
+  },
+  "homepage": "https://github.com/Samuel7176/car-management-system#readme",
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "^7.0.2"
+  }
+}
