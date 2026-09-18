@@ -35,4 +35,16 @@ export type Car = {
   transmission: Transmission;
   dailyRentalPrice: number;
   type: VehicleType;
+}
+export enum UserRole {
+  ADMIN = "admin",
+  STAFF = "staff",
+  CUSTOMER = "customer"
+}
+export type User = {
+  id: number;
+  name: string;
+  email: string;
+  password: string;
+  role: UserRole;
 };
